@@ -1,0 +1,23 @@
+﻿@using Pre_Requisite_Task_2.Models
+@model List<StudentResult>
+
+<h2>Students with Courses & Marks</h2>
+<table border="1" cellpadding="8" cellspacing="0">
+    <tr><th>Student</th><th>Course</th><th>Final Mark</th></tr>
+    @foreach (var r in Model)
+    {
+        <tr><td>@r.StudentName</td><td>@r.CourseName</td><td>@r.FinalMark</td></tr>
+    }
+</table>
+
+<h2>Lowest Mark</h2>
+<p>@ViewBag.LowestMark</p>
+
+<h2>Student with the Lowest Mark</h2>
+<table border="1" cellpadding="8" cellspacing="0">
+    <tr><th>Student</th><th>Course</th><th>Final Mark</th></tr>
+    @foreach (var r in (List<StudentResult>)ViewBag.LowestStudents)
+    {
+        <tr><td>@r.StudentName</td><td>@r.CourseName</td><td>@r.FinalMark</td></tr>
+    }
+</table>
