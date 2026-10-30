@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Courses";
+    int start = Int32.Parse(ViewBag.Start.ToString());
+    int end = Int32.Parse(ViewBag.End.ToString());
+}
+<h2>@ViewBag.Title</h2>
+<p>Welcome to the courses section.</p>
+<ul>
+    <li><a href="/course/detail/1">Course 1</a></li>
+    <li><a href="/course/detail/2">Course 2</a></li>
+</ul>
+
+<p>paragraph 1</p>
+<div>div 1</div>
+
+<ul>
+    @for (int i = start; i <= end; i++)
+    {
+        if (i % 2 == 0)
+        {
+            <li>Even item @i</li>
+        }
+        else
+        {
+            <li>Odd item @i</li>
+        }
+    }
+</ul>
+
+<table border="1">
+    @for (int i = start; i <= end; i++)
+    {
+        <tr>
+            <td>Row @i</td>
+        </tr>
+    }
+</table>
+
+@section SubMenu
+{
+    <a href="#" class="btn btn-primary">Sub Menu Item</a>
+}
