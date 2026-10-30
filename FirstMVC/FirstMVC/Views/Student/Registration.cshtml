@@ -1,0 +1,43 @@
+﻿@model StudentModel
+@{
+    ViewData["Title"] = "Registration";
+}
+@Model.FullName
+@Model.Age
+<div class="row">
+<div class="col-3"></div>
+<div class="col-6">
+<h1>Registration</h1>
+<div class="text-danger" asp-validation-summary="ModelOnly"></div>
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label" asp-for="FullName"></label>
+        <input type="text" class="form-control" asp-for="FullName"/>
+<span class="text-danger" asp-validation-for="FullName"></span>
+    </div>
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Age, new{@class = "form-label"})
+        @Html.TextBoxFor(m => m.Age, new{@class = "form-control"})
+        <span class="text-danger">
+            @Html.ValidationMessageFor(m => m.Age)
+        </span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Gender" class="form-label"></label>
+        <select class="form-select" asp-for="Gender" asp-items="ViewBag.GenderList">
+                    <option selected="selected" disabled="disabled">Please Select A Gender</option>
+        </select>
+<span class="text-danger" asp-validation-for="Gender"></span>
+        
+    </div>
+<div class="nb-3">
+<label asp-for="DateOfBirth" class="form-label"></label>
+                <input type="date" class="form-control" asp-for="DateOfBirth" />
+                <span class="text-danger" asp-validation-for="DateOfBirth"></span>"
+</div>
+    <button class="btn btn-info" type="submit">Submit</button>
+</form> 
+</div>
+<div class="col-3"></div>
+</div>
+
