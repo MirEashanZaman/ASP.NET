@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sh2t/guEENg=",
+  "dgSpecHash": "jDByYJ1v8l0=",
   "success": true,
-  "projectFilePath": "E:\\D\\ASP .NET\\Pre-Requisite Task-2\\Pre-Requisite Task-2\\Pre-Requisite Task-2.csproj",
+  "projectFilePath": "E:\\D\\ASP .NET\\Pre-Requisite Tasks\\Pre-Requisite Tasks\\Pre-Requisite Task-2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.18\\microsoft.bcl.cryptography.9.0.18.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.data.sqlclient\\7.1.1\\microsoft.data.sqlclient.7.1.1.nupkg.sha512",
@@ -21,5 +21,30 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.18\\system.security.cryptography.pkcs.9.0.18.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.18\\system.security.cryptography.protecteddata.9.0.18.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'System.Security.Cryptography.Pkcs' 9.0.18 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-2fmv-rv2c-59x7",
+      "projectPath": "E:\\D\\ASP .NET\\Pre-Requisite Tasks\\Pre-Requisite Tasks\\Pre-Requisite Task-2.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\D\\ASP .NET\\Pre-Requisite Tasks\\Pre-Requisite Tasks\\Pre-Requisite Task-2.csproj",
+      "libraryId": "System.Security.Cryptography.Pkcs",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'System.Security.Cryptography.Pkcs' 9.0.18 has a known high severity vulnerability, https://github.com/advisories/GHSA-846f-f764-76mx",
+      "projectPath": "E:\\D\\ASP .NET\\Pre-Requisite Tasks\\Pre-Requisite Tasks\\Pre-Requisite Task-2.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\D\\ASP .NET\\Pre-Requisite Tasks\\Pre-Requisite Tasks\\Pre-Requisite Task-2.csproj",
+      "libraryId": "System.Security.Cryptography.Pkcs",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
