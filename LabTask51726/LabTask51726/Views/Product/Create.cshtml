@@ -1,0 +1,21 @@
+﻿@model LabTask51726.Models.Product
+@{
+    <form asp-action="Create" method="post">
+        <div>
+            <label asp-for="ProductName"></label>
+            <input asp-for="ProductName" />
+            <span asp-validation-for="ProductName"></span>
+        </div>
+        <div>
+            <label asp-for="Price"></label>
+            <input asp-for="Price" />
+            <span asp-validation-for="Price"></span>
+        </div>
+        <div>
+            <label asp-for="StockQuantity"></label>
+            <input asp-for="StockQuantity" />
+            <span asp-validation-for="StockQuantity"></span>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+}
