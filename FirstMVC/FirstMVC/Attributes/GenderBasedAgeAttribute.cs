@@ -9,14 +9,20 @@ namespace FirstMVC.Attributes
         {
             if(value is DateTime dob) { 
             var age = (DateTime.Now - dob).TotalDays / 365;
-                var modelData = (StudentModel)context.ObjectInstance;
+                var genderProperty = context.ObjectType.GetProperty("Gender");
+                if (genderProperty == null)
+                {
+                    return new ValidationResult("Gender property not found.");
+                }   
 
-                if (modelData.Gender== "Male" && age < 21)
+                var gender = genderProperty.GetValue(context.ObjectInstance);
+
+                if (gender !=null && gender == "Male" && age < 21)
                 {
                     return new ValidationResult("Male students must be at least 21 years old.");
                 }
 
-                if (modelData.Gender == "Female" && age < 18)
+                if (gender != null && gender == "Female" && age < 18)
                 {
                     return new ValidationResult("Female students must be at least 18 years old.");
                 }
