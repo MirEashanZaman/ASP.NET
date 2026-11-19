@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\D\\ASP .NET\\LabTask-2(51726)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{189BEC39-2140-BB95-E83D-9D2829526B4D}|LabTask-2(51726)\\LabTask-2(51726).csproj|e:\\d\\asp .net\\labtask-2(51726)\\labtask-2(51726)\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{189BEC39-2140-BB95-E83D-9D2829526B4D}|LabTask-2(51726)\\LabTask-2(51726).csproj|solutionrelative:labtask-2(51726)\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189BEC39-2140-BB95-E83D-9D2829526B4D}|LabTask-2(51726)\\LabTask-2(51726).csproj|e:\\d\\asp .net\\labtask-2(51726)\\labtask-2(51726)\\data\\universitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{189BEC39-2140-BB95-E83D-9D2829526B4D}|LabTask-2(51726)\\LabTask-2(51726).csproj|solutionrelative:labtask-2(51726)\\data\\universitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189BEC39-2140-BB95-E83D-9D2829526B4D}|LabTask-2(51726)\\LabTask-2(51726).csproj|e:\\d\\asp .net\\labtask-2(51726)\\labtask-2(51726)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{189BEC39-2140-BB95-E83D-9D2829526B4D}|LabTask-2(51726)\\LabTask-2(51726).csproj|solutionrelative:labtask-2(51726)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189BEC39-2140-BB95-E83D-9D2829526B4D}|LabTask-2(51726)\\LabTask-2(51726).csproj|e:\\d\\asp .net\\labtask-2(51726)\\labtask-2(51726)\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{189BEC39-2140-BB95-E83D-9D2829526B4D}|LabTask-2(51726)\\LabTask-2(51726).csproj|solutionrelative:labtask-2(51726)\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189BEC39-2140-BB95-E83D-9D2829526B4D}|LabTask-2(51726)\\LabTask-2(51726).csproj|e:\\d\\asp .net\\labtask-2(51726)\\labtask-2(51726)\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{189BEC39-2140-BB95-E83D-9D2829526B4D}|LabTask-2(51726)\\LabTask-2(51726).csproj|solutionrelative:labtask-2(51726)\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\D\\ASP .NET\\LabTask-2(51726)\\LabTask-2(51726)\\Program.cs",
+              "RelativeDocumentMoniker": "LabTask-2(51726)\\Program.cs",
+              "ToolTip": "E:\\D\\ASP .NET\\LabTask-2(51726)\\LabTask-2(51726)\\Program.cs",
+              "RelativeToolTip": "LabTask-2(51726)\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T05:34:34.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\D\\ASP .NET\\LabTask-2(51726)\\LabTask-2(51726)\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "LabTask-2(51726)\\Views\\Student\\Index.cshtml",
+              "ToolTip": "E:\\D\\ASP .NET\\LabTask-2(51726)\\LabTask-2(51726)\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "LabTask-2(51726)\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-17T05:32:08.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "E:\\D\\ASP .NET\\LabTask-2(51726)\\LabTask-2(51726)\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "LabTask-2(51726)\\Controllers\\StudentController.cs",
+              "ToolTip": "E:\\D\\ASP .NET\\LabTask-2(51726)\\LabTask-2(51726)\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "LabTask-2(51726)\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T05:31:03.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UniversityDbContext.cs",
+              "DocumentMoniker": "E:\\D\\ASP .NET\\LabTask-2(51726)\\LabTask-2(51726)\\Data\\UniversityDbContext.cs",
+              "RelativeDocumentMoniker": "LabTask-2(51726)\\Data\\UniversityDbContext.cs",
+              "ToolTip": "E:\\D\\ASP .NET\\LabTask-2(51726)\\LabTask-2(51726)\\Data\\UniversityDbContext.cs",
+              "RelativeToolTip": "LabTask-2(51726)\\Data\\UniversityDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T05:29:28.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\D\\ASP .NET\\LabTask-2(51726)\\LabTask-2(51726)\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "LabTask-2(51726)\\appsettings.Development.json",
+              "ToolTip": "E:\\D\\ASP .NET\\LabTask-2(51726)\\LabTask-2(51726)\\appsettings.Development.json",
+              "RelativeToolTip": "LabTask-2(51726)\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-17T05:27:17.324Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
